@@ -25,7 +25,7 @@ if submit_button:
         st.write("That sucks, do at least one of these and re-evaluate. Try:\n")
         st.write("\n\n".join(random_boosters))
     else:
-        st.write("Go and take actions!")
+        st.write("go and live life! take actions, be an agent, make the most of this morale")
 
 # Add a footer with the link
 footer_html = '''
