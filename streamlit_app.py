@@ -34,7 +34,6 @@ footer_html = '''
         text-align: center;
         padding: 20px;
         background-color: transparent;
-        color: white;
         font-size: 14px;
     }
 
@@ -45,6 +44,26 @@ footer_html = '''
     footer a:hover {
         color: #f8f9fa;
         text-decoration: underline;
+    }
+
+    /* Light mode */
+    @media (prefers-color-scheme: light) {
+        footer {
+            color: black;
+        }
+        footer a:hover {
+            color: black;
+        }
+    }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+        footer {
+            color: white;
+        }
+        footer a:hover {
+            color: white;
+        }
     }
 </style>
 <footer>
